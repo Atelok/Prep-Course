@@ -1,0 +1,27 @@
+1. En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como si se lo 
+estuvieras explicando a un niño de 12 años. Hacer esto te ayudará 
+a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+ ---------------------------------------------
+
+ Variables: Son palabras usadas como un lugar de almacenaje 
+ donde se le puede dar el valor que uno requiera.
+
+ Strings: Son los Textos que se reflejaran tal cual en el sistema.
+ se deben escribir mediante "".
+
+ Funciones (argumentos, `return`): Es un procedimiento para que pueda 
+ otorgarnos un valor.
+
+ Declaraciones `if`; Es una operacion de JavaScript que se usa para 
+ que el sistema pueda elegir una opcion, dependiendo de lo que coloquemos.
+
+ Valores booleanos (`true`, `false`): son valores cuales colocamos 
+ que solo tienes dos opciones

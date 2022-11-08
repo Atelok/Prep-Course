@@ -110,7 +110,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num = num%2) {
+  if (num = num%2 === 0) {
     return true;
   } else {
     return false; 
@@ -121,7 +121,11 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num = num%2 === 1) {
+    return true;
+  } else {
+    return false; 
+  }
 }
 
 function elevarAlCuadrado(num) {
@@ -196,7 +200,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola " + nombre;
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -235,15 +239,18 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 
- var letra = ("a", "e", "i", "o", "u");
+ 
+  if (letra.length > 1) {
+    return "Dato incorrecto"
+  }
 
-  if (letra){
-    return "Es una vocal";
+  if (letra === "a"|| letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal";
   }
   //else if (letra.length>1){
    // return "Dato incorrecto";
   //}
-  else {
+  else { 
     return "Dato incorrecto";
   }
 }

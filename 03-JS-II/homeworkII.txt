@@ -1,0 +1,23 @@
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como si 
+se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero 
+en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+-----------------------------------------------------------------
+
+For es statement que nos ayudara a que un codigo que ingresemos se repita,
+ formando asi un bucle para poder tener todas las respuestas que queramos.
+
+ '&&' En terminos de JS es el "Y" sirve para enlazar dos opciones o más, 
+ para que el codigo funcione estas funciones deberan ser TRUE
+
+ '||' En terminos de JS es el "O" sirve para enlazar dos opciones o más, 
+ a diferencia de &&, en este caso solo se necesita que una de las opciones
+ sea verdad para que el codigo avance correctamente
+
+'!' En terminos de JS es "negación", se usa para negar una respuesta
+por ejemplo podemos cambiar a un TRUE por un FALSE con esta opcion y viceversa.

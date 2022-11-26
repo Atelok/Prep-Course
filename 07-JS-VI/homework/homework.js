@@ -84,8 +84,6 @@ function filter(array) {
     
   }
   return nuevoarray;
-
-  
 }
 
 // No modificar nada debajo de esta línea
